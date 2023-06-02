@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Свойства объектов</h2>
+
+<p>Существует два различных способа доступа к свойству объекта:</p>
+<p>Вы можете использовать .property или ["property"].</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+  firstname:"Щипунов",
+  lastname:"Андрей",
+  age:50,
+  eyecolor:"зеленый"
+};
+
+document.getElementById("demo").innerHTML = person["firstname"] + " будет " + person["age"] + " лет.";
+</script>
+
+</body>
+</html>
